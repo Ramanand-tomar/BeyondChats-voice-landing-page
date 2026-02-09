@@ -156,7 +156,7 @@ const HowItWorks = () => {
         </div>
 
         {/* Demo Video Section */}
-        <div className="mt-20 relative rounded-2xl overflow-hidden bg-gradient-to-r from-primary/10 to-secondary/10 border border-border/50 p-8 lg:p-12">
+        <div className="mt-20 relative rounded-2xl overflow-hidden bg-gradient-to-r from-primary/10 to-secondary/10 border border-border/50 p-4 md:p-8 lg:p-12">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl lg:text-3xl font-bold mb-4">
@@ -186,7 +186,7 @@ const HowItWorks = () => {
             <div className="relative aspect-video rounded-xl overflow-hidden bg-muted border border-border shadow-2xl group/video cursor-pointer">
               <video
                 src={demoVideo}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain scale-[1.5] rounded-lg transition-transform duration-500 group-hover/video:scale-[0.9]"
                 autoPlay
                 loop
                 muted
@@ -196,10 +196,10 @@ const HowItWorks = () => {
               <div className="absolute inset-0 bg-background/20 group-hover/video:bg-transparent transition-colors duration-500" />
               
               {/* Floating Play Indicator */}
-              <div className="absolute bottom-4 left-4 flex items-center gap-3 bg-background/80 backdrop-blur-md px-4 py-2 rounded-full border border-border shadow-lg">
+              {/* <div className="absolute bottom-4 left-4 flex items-center gap-3 bg-background/80 backdrop-blur-md px-4 py-2 rounded-full border border-border shadow-lg">
                 <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                 <span className="text-xs font-medium">Demo Recording</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
