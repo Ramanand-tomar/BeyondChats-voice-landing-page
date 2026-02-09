@@ -119,15 +119,6 @@ const Navbar = () => {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-
-              <NavigationMenuItem>
-                <NavigationMenuLink
-                  href="#pricing"
-                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none"
-                >
-                  Pricing
-                </NavigationMenuLink>
-              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
 
@@ -149,7 +140,7 @@ const Navbar = () => {
             <div className="hidden md:flex items-center gap-2">
               <Button variant="ghost">Sign In</Button>
               <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity">
-                Get Started
+                Try out for free
               </Button>
             </div>
 
@@ -200,16 +191,12 @@ const Navbar = () => {
                         </a>
                       ))}
                     </div>
-
-                    <a href="#pricing" className="py-2 font-medium" onClick={() => setMobileOpen(false)}>
-                      Pricing
-                    </a>
                   </nav>
 
                   <div className="flex flex-col gap-2 mt-4">
                     <Button variant="outline" className="w-full">Sign In</Button>
                     <Button className="w-full bg-gradient-to-r from-primary to-secondary">
-                      Get Started
+                      Try out for free
                     </Button>
                   </div>
                 </div>

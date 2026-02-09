@@ -104,12 +104,8 @@ const Hero = () => {
                 size="lg"
                 className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all group text-lg px-8"
               >
-                Start Free Trial
+                Try out for free
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 group">
-                <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                Watch Demo
               </Button>
             </div>
 

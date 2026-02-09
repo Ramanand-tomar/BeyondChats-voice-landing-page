@@ -46,7 +46,7 @@ const CTA = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             <Sparkles className="h-4 w-4" />
-            Start Your Free Trial Today
+            Get Started for Free
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
@@ -70,13 +70,13 @@ const CTA = () => {
               size="lg"
               className="h-12 bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity group whitespace-nowrap"
             >
-              Get Started
+              Try out for free
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
 
           <p className="text-sm text-muted-foreground">
-            14-day free trial • No credit card required • Cancel anytime
+            No credit card required • Join 1000+ businesses today
           </p>
 
           {/* Trust Elements */}

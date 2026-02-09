@@ -186,7 +186,7 @@ const HowItWorks = () => {
             <div className="relative aspect-video rounded-xl overflow-hidden bg-muted border border-border shadow-2xl group/video cursor-pointer">
               <video
                 src={demoVideo}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
                 autoPlay
                 loop
                 muted
